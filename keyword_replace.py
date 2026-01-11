@@ -187,14 +187,14 @@ def keyword_decode(text: str, keyword: str, rows_num: int):
 # rows_num = 6
 # text = "СИММЕТРИЧНЫЕ СИСТЕМЫ ДЕЛЯТСЯ НА БЛОЧНЫЕ И ПОТОЧНЫЕ"
 
-# key = "ЕВРОПА"
-# rows_num = 5
-# text = "СИММЕТРИЧНЫЕ СИСТЕМЫ ДЕЛЯТСЯ НА БЛОЧНЫЕ И ПОТОЧНЫЕ"
+key = "ЕВРОПА"
+rows_num = 5
+text = "СИММЕТРИЧНЫЕ СИСТЕМЫ ДЕЛЯТСЯ НА БЛОЧНЫЕ И ПОТОЧНЫЕ"
 
-# encoded = keyword_encode(text, key, rows_num)
-# print(encoded)
-# decoded = keyword_decode(encoded, key, rows_num)
-# print(decoded)
+encoded = keyword_encode(text, key, rows_num)
+print(encoded)
+decoded = keyword_decode(encoded, key, rows_num)
+print(decoded)
 
 key = "АЛМАЗ"
 rows_num = 6
